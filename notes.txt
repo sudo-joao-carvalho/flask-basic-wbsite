@@ -1,0 +1,1 @@
+enter the virtual environment: (terminal) source env/bin/activate
