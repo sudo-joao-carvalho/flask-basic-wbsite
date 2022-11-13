@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
     <title>Home Page</title>
 </head>
 <body>
-    <h1>Home Page!</h1>
+    <h1>Home Page!</h1>-->
     <!--<p>{{content}}</p>
     <p>{{r}}</p>-->
 
@@ -15,10 +15,17 @@
     {%for _ in range(10)%}
         <p>Hello!</p>
     {%endfor%}-->
-
+<!--
     {%for x in content%}
         <p>{{x}}</p>
     {%endfor%}
 
 </body>
-</html>
+</html>-->
+
+{% extends "base.html"%}
+
+{% block title %}HOME PAGE{% endblock %}
+{% block content %}
+    <h1>Test</h1>
+{% endblock %}
